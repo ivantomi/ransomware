@@ -55,6 +55,7 @@ function Page() {
         <div className="py-20 text-9xl">
           <a>
             <button
+              onClick={Redirect("creditcard")}
               className=" rounded-full border-x-lime-500-[4px] p-5"
               id="uglee"
             >
