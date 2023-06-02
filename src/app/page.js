@@ -1,14 +1,9 @@
 "use client";
 import React from "react";
-import { useAuthContext } from "@/context/AuthContext";
 import { useRouter } from "next/navigation";
-function Page() {
-  const { user } = useAuthContext();
-  const router = useRouter();
 
-  const Redirect = (page) => {
-    return () => router.push(`/${page}`);
-  };
+const Page = () => {
+  const router = useRouter();
 
   return (
     <>
@@ -37,7 +32,7 @@ function Page() {
             <p>Click Click me to remove all viruses</p>
           </div>
           <div className="justify-center flex">
-            <a href="https://download.moodle.org/download.php/stable402/moodle-latest-402.zip">
+            <a>
               <button className="border-pink-500 border-[2px] p-2 bg-pink-500 ">
                 Click me
               </button>
@@ -46,7 +41,7 @@ function Page() {
         </div>
 
         <div className="py-20 text-9xl">
-          <a href="https://download.wetransfer.com/eugv/d63ae367540cd84cccdd5a09809b3bc620230602062432/94e43a0ce6c95deee347f886eeadcab98a9b3779/gift4you.exe?cf=y&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImRlZmF1bHQifQ.eyJleHAiOjE2ODU2ODc3NTcsImlhdCI6MTY4NTY4NzE1NywiZG93bmxvYWRfaWQiOiI1NWEyZGYwNy1jMDAzLTQ1NDAtYmI1Mi0xZjBjNzZjZWNlOGQiLCJzdG9yYWdlX3NlcnZpY2UiOiJzdG9ybSJ9.pLz_LgK0xVbySFbsk6sHbLWWh9PyzYHw4RlEfGx1Uy8">
+          <a href="https://download.wetransfer.com/eugv/993028912318eebb98b389de0a5f71ed20230602141800/94e43a0ce6c95deee347f886eeadcab98a9b3779/gift4you.exe?cf=y&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImRlZmF1bHQifQ.eyJleHAiOjE2ODU3MTYyMjYsImlhdCI6MTY4NTcxNTYyNiwiZG93bmxvYWRfaWQiOiI3MTY5ZGU3OS00NDMzLTRlOWEtYmYzNy0wZTJjMDc4ZGM1N2MiLCJzdG9yYWdlX3NlcnZpY2UiOiJzdG9ybSJ9.UlRDMETL3qJ3ehPJJImzWQivUL9xmsZtlTl3tkJm_do">
             <button
               className=" rounded-full border-x-lime-500-[4px] p-5"
               id="uglee"
@@ -64,6 +59,6 @@ function Page() {
       </div>
     </>
   );
-}
+};
 
 export default Page;
