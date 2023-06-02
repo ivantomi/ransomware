@@ -26,11 +26,11 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-/* #uglee {
+#ugleeText {
   -webkit-border-radius: 60px;
   border-radius: 60px;
   border: none;
-  color: #eeeeee;
+  color: pink.500;
   padding: 15px 15px;
   animation: glowing 1300ms infinite;
 }
@@ -48,7 +48,7 @@ body {
     background-color: #2ba805;
     box-shadow: 0 0 5px #2ba805;
   }
-} */
+}
 
 #uglee {
   background-image: url("https://i.gifer.com/origin/97/9751a8120861aa384bb805bb9efe774c.gif");

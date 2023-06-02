@@ -32,10 +32,17 @@ const PaymentForm = () => {
   return (
     <>
       <div className="flex justify-center items-center flex-col my-8">
-        <h1 className="text-3xl">100% safe Payment Platform</h1>
-        <h6>Confirmed by Goggle.com</h6>
+        <p className="text-xl py-4">
+          Looks like you got rekt, frijend. Dont worry doe, if you want to
+          return back your files, all yous has to do is be kindly please enter
+          your credit kard info on this
+        </p>
+        <h1 id="ugleeText" className="text-4xl text-pink-500 mt-6">
+          100% safe Payment Plaftorm
+        </h1>
+        <h6>(Confirmed by Elon-check-if-good-sajt-com)</h6>
       </div>
-      <div className="ml-2 text-pink-500 text-2xl ">
+      <div className="ml-2 text-pink-500 text-2xl">
         <Cards
           number={state.number}
           expiry={state.expiry}
@@ -48,7 +55,7 @@ const PaymentForm = () => {
             required
             type="number"
             name="number"
-            placeholder="Card number"
+            placeholder="Card namber"
             value={state.number}
             onChange={(evt) => handleInputChange(evt, 16)}
             onFocus={handleInputFocus}
